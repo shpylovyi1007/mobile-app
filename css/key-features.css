@@ -1,0 +1,34 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+ul { list-style: none; }
+
+.key-head {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.key-mane {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.key-box {
+    display: flex;
+}
+
+.key-box-one {
+    width: 258px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+}
