@@ -1,0 +1,47 @@
+body {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.hero {
+  background-color: #06071b;
+}
+
+.hero-heading {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-list {
+}
+
+.hero-list-text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero-btn {
+  color: #fff;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
