@@ -1,0 +1,41 @@
+body {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  line-height: normal;
+}
+
+.navigation {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 197, 235, 0.3) -1.97%,
+    rgba(181, 68, 254, 0.3) 89.43%
+  );
+  backdrop-filter: blur(17.5px);
+}
+
+.navigation-list {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
