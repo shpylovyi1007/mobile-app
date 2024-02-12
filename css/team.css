@@ -83,6 +83,7 @@ img {
 }
 
 .team-img {
+  z-index: 2;
   width: 248px;
 }
 
@@ -104,6 +105,7 @@ img {
       rgba(181, 68, 254, 0.5) 104.34%
     ),
     #06071b;
+  position: relative;
 }
 
 .samantha-item {
@@ -122,6 +124,7 @@ img {
       rgba(181, 68, 254, 0.5) 83.61%
     ),
     #06071b;
+  position: relative;
 }
 
 .team-img {
@@ -150,10 +153,40 @@ img {
   line-height: 1.5;
 }
 
+.left-gradient {
+  z-index: 1;
+  position: absolute;
+  top: -150%;
+  left: -50%;
+  /* top: -10%; */
+  /* left: -15%; */
+  border-radius: 40%;
+  width: 185px;
+  height: 90px;
+  transform: rotate(-10deg);
+  background: linear-gradient(#00c5eb, #00c5eb);
+  opacity: 0.1;
+  box-shadow: 30px 30px 60px 60px #00c5eb;
+}
+
+.right-gradient {
+  display: none;
+  position: absolute;
+  top: -75%;
+  left: 10%;
+  border-radius: 40%;
+  width: 130px;
+  height: 160px;
+  transform: rotate(-10deg);
+  background: linear-gradient(#00c5eb, #00c5eb);
+  opacity: 0.1;
+  box-shadow: 30px 30px 60px 60px #00c5eb;
+}
+
 @media (max-width: 480px) {
-    .team-text {
-        max-width: calc(100% - 40px);
-    }
+  .team-text {
+    max-width: calc(100% - 40px);
+  }
 }
 
 @media (min-width: 768px) {
@@ -194,6 +227,12 @@ img {
   .team-img {
     width: 296px;
   }
+
+  .left-gradient {
+    top: -40%;
+    left: 30%;
+    display: block;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -226,5 +265,14 @@ img {
 
   .team-img {
     width: 264px;
+  }
+
+  .left-gradient {
+    top: -10%;
+    left: -15%;
+  }
+
+  .right-gradient {
+    display: block;
   }
 }
